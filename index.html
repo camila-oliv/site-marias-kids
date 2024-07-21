@@ -15,41 +15,27 @@
      <div id="status"></div>
    </div>
 
-   <div class="container-fluid bg-color-one box-barra-topo">
-     <span>
-       <img class="endereço" src="menu-inicial/localizacao.png"></img>
-        Rua Água Santa, 345 Centro - Itabira /MG
-     </span>
-     <br>
-     <span>
-       <img class="whatsap" src="menu-inicial\whatsapp.png"></img>
-        (31) 98980-3647
-     </span>
-     <span>          
-       <img class="email" src="menu-inicial\o-email.png"></img>
-        mariaskids.itabira@gmail.com
-     </span>
-   </div>
-     
-   <div class="info-topo text-right redesocial-xs-sm">
+   <div class="container-fluid bg-color-one box-barra-topo">     
+     <div class="info-topo text-right redesocial-xs-sm">
      <a href="https://www.facebook.com/profile.php?id=61554187907362">
-       <img class="facebook"src="facebook.jpg"></i>
+       <img class="facebook"src="facebook.jpg" />
      </a>
 
      <a href="https://www.instagram.com/mariaskids.itabira/">
-       <img class="instagran" src="instagram.jpg"></i>
+       <img class="instagran" src="instagram.jpg" />
      </a>
 
      <a href="https://wa.me/message/DQH7SM5SW5URN1>">
-       <img class="whatsApp" src="WhatsApp.jpg"></i>
+       <img class="whatsApp" src="WhatsApp.jpg" />
      </a>
    </div>
+  </div>
 
    <div class="logomarca">
       <img class="logomarca"src="imagem sem fundo.png">
    </div>
 
-   <div class="container px-4 text-center">
+   <div class="container-indice px-4 text-center">
      <div class=" indice row gx-5">
         <div class="col">
          <div class="p-3">
@@ -213,20 +199,23 @@
 
            <div class="cadastro col-xs-12 col-sm-12 col-md-12 col-lg-12">
              <form method="post" action="home/newsletter" class="box-form-news">
-               <div class="row">
-                 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-10">
-                   <div class="row">
-                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                       <input type="text" name="nome" class="form-control ipt-news" required="" value="" placeholder="Informe seu nome">
-                     </div>
+               <div class="row justify-content-center">
+                 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-3">
+                    <input type="text" name="nome" class="form-control ipt-news" required="" value="" placeholder="Informe seu nome">
+                  </div>
 
-                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <!-- 
+                    xs x-small
+                    sm smal
+                    md medium
+                    lg large
+                   -->
+
+                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                        <input type="email" name="email" class="form-control ipt-news" required="" value="" placeholder="Informe seu número de WhatsApp">
                      </div>
-                   </div>
-                 </div>
 
-                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2 text-center">
+                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
                    <input type="submit" name="cadastrar" class="btn btn-contato2" value="CADASTRAR" style="width: 100%;">
                  </div>
                </div>
@@ -257,7 +246,7 @@
                    <tbody>
                      <tr>
                        <td width="30" height="30" valign="middle" align="left">
-                         <img class="facebook2" src="facebook.jpg" style="font-size: 30px;"></i>
+                         <img class="facebook2" src="facebook.jpg" style="font-size: 30px;" />
                        </td>
 
                        <td valign="middle">
@@ -273,7 +262,7 @@
                    <tbody>
                      <tr>
                        <td width="30" height="30" valign="middle" align="left">
-                         <img class="instagram2" src="instagram.jpg" style="font-size: 30px;"></i>
+                         <img class="instagram2" src="instagram.jpg" style="font-size: 30px;" />
                        </td>
 
                        <td valign="middle">
@@ -311,10 +300,12 @@
                      <tbody>
                        <tr>
                          <td valign="middle" width="30" height="40">
-                           <img class="localizacao" src="menu-inicial\localizacao.png"></i>
+                           <img class="localizacao" src="menu-inicial\localizacao.png" />
                          </td>
 
-                         <td valign="middle">Rua Água Santa, 345 Centro - Itabira/MG</td>
+                         <td valign="middle">
+                          <a href="https://maps.google.com/?q=Rua Água Santa, 345 Centro - Itabira/MG" target="_blank">Rua Água Santa, 345 Centro - Itabira/MG</a>
+                          </td>
                        </tr>
 
                        <tr>
@@ -323,7 +314,7 @@
 
                        <tr>
                          <td valign="middle" width="30" height="40">
-                            <img class="whatsap" src="menu-inicial\whatsapp.png" ></img>
+                            <img class="whatsap" src="menu-inicial\whatsapp.png" />
                          </td>
 
                          <td valign="middle">(31) 98980-3647</td>
@@ -335,7 +326,7 @@
 
                        <tr>
                          <td valign="middle" width="30" height="40">
-                           <img class="email" src="menu-inicial\o-email.png"></img>
+                           <img class="email" src="menu-inicial\o-email.png" />
                          </td>
 
                          <td valign="middle">mariaskids.itabira@gmail.com</td>
