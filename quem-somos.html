@@ -8,51 +8,30 @@
 </head>
 
 <body>
-  <div class="flex-container">
-       <img class="logomarca" src="C:\Users\Administrador\Desktop\PROJETOS\imagem sem fundo.png" alt="">
-    
-        <input class="js-search-input form-control search-input" autocomplete="off" type="search" name="q" placeholder="O que você está buscando?" aria-label="O que você está buscando?">
-        
-        <button type="submit" class="btn search-input-submit" value="Buscar" aria-label="Buscar">
-          <svg class="icon-inline icon-2x" viewBox="0 0 30.9 31.2">
-            <path d="m30.787 29.158-7.81-7.81a.718.718 0 0 0-.515-.212h-.624a12.538 12.538 0 0 0 3.348-8.543C25.186 5.637 19.55 0 12.593 0 5.637 0 0 5.637 0 12.593c0 6.957 5.637 12.593 12.593 12.593 3.3 0 6.297-1.271 8.543-3.342v.618c0 .194.079.375.212.514l7.81 7.81a.727.727 0 0 0 1.03 0l.599-.599a.727.727 0 0 0 0-1.029Zm-18.194-5.91A10.648 10.648 0 0 1 1.937 12.594c0-5.89 4.765-10.656 10.656-10.656A10.648 10.648 0 0 1 23.25 12.593 10.648 10.648 0 0 1 12.593 23.25Z"></path>
-          </svg>
-        </button>
-    
-        <img class="atendimento" src="C:\Users\Administrador\Desktop\PROJETOS\bate-papo.png" alt="">Atendimento
-    
-        <img class="login" src="C:\Users\Administrador\Desktop\PROJETOS\amar.png" alt="">Login
-          
-        <img class="sacola" src="C:\Users\Administrador\Desktop\PROJETOS\sacola-de-compras.png" alt="">Sacola
-    
-    </div>
-      
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="file:///C:/Users/Administrador/Desktop/PROJETOS/quem-somos.html">Maria's Kids</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-          </button>
+  <div class="inicio">
+    <div class="logo"></div>
+    <div id="status"></div>
+  </div>
 
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               <div class="navbar-nav">
-                 <a class="nav-link active" aria-current="page" href="#">Início</a>
-                 <a class="nav-link" href="#">Produtos</a>
-                 <a class="nav-link" href="#">Enxoval</a>
-                 <a class="nav-link" href="#">Bebê</a>
-                 <a class="nav-link" href="#">Menina</a>
-                 <a class="nav-link" href="#">Menino</a>
-                 <a class="nav-link" href="#">Meias</a>
-                 <a class="nav-link" href="#">Puericultura</a>
-                 <a class="nav-link" href="#">Oportunidade</a>
-               </div>
-            </div>
-        </div>
-    </nav>
+  <div class="container-fluid bg-color-one box-barra-topo">     
+    <div class="info-topo text-right redesocial-xs-sm">
+     <a href="https://www.facebook.com/profile.php?id=61554187907362">
+       <img class="facebook"src="facebook.jpg" />
+     </a>
 
-    <h1>Quem Somos</h1>
+     <a href="https://www.instagram.com/mariaskids.itabira/">
+       <img class="instagran" src="instagram.jpg" />
+     </a>
 
-    <img class="foto-somos" src="C:\Users\Administrador\Desktop\PROJETOS\criancas.jpg" alt="">
+     <a href="https://wa.me/message/DQH7SM5SW5URN1>">
+       <img class="whatsApp" src="WhatsApp.jpg" />
+     </a>
+   </div>
+ </div>
+ 
+ <h1>Quem Somos</h1>
+
+ <img class="foto-somos" src="fantasy-scene-wealth.jpg"/>
 
     <p class="texto-somos">
         A loja Maria's Kids nasceu do sonho de duas mães, as mães das "Maria's" de vestir os 
@@ -90,7 +69,42 @@
         assim buscando ser a melhor versão de nós mesmos sempre.
     </p>
 
-    <img class="logo2" src="C:\Users\Administrador\Desktop\PROJETOS\logo-marias2.jpg" alt="">
+    <img class="logo2" src="logo-marias2.jpg"/>
+
+    <div class="container-fluid5 bg-color-one box-h-newsletter">
+      <div class="row">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="box-tit text-center" style="margin-bottom: 10px;">
+                <div class="box-titulo text-center color-one">
+                  Cadastre-se <span></span>
+                </div>
+                <p class="color-one">E fique por dentro das nossas novidades e promoções.</p>
+              </div>
+            </div>
+ 
+            <div class="cadastro col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <form method="post" action="home/newsletter" class="box-form-news">
+                <div class="row justify-content-center">
+                  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-3">
+                     <input type="text" name="nome" class="form-control ipt-news" required="" value="" placeholder="Informe seu nome">
+                   </div>
+ 
+                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <input type="email" name="email" class="form-control ipt-news" required="" value="" placeholder="Informe seu número de WhatsApp">
+                      </div>
+ 
+                  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+                    <input type="submit" name="cadastrar" class="btn btn-contato2" value="CADASTRAR" style="width: 100%;">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="newsletter">
         <div class="container" style="display:flex">
