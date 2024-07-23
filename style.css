@@ -283,10 +283,6 @@ h1{
     transition: all .2s ease-in-out;
 }
 
-.cadastro {
-    height: 70px;
-}
-
 .container-fluid5{
     margin-top: 300px;
     border:"0";
@@ -348,4 +344,30 @@ h1{
 .container-fluid9{
     display: none;
     align-self: center;
+}
+
+.foto-somos{
+    width: 950px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.texto-somos{
+    font-size: 20px;
+    text-align: center;
+}
+
+.logo-rodape2{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.casa{
+    width: 90px;
+    height: 80px; 
 }
